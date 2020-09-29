@@ -1,0 +1,374 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="ext/materialize.min.css">
+  <title>CyberAuxi</title>
+  <link rel="icon" type="image/png" href="img/logo.png" />
+  <style>
+    .log {
+      width: 50%;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: Montserrat, serif;
+    }
+
+    .center {
+      position: relative;
+      vertical-align: middle;
+      margin-top: 10px;
+      width: 150px;
+    }
+
+    @media screen and (max-width: 670px) {
+      h1 {
+        font-size: xx-large;
+      }
+
+      .centeric {
+        margin-left: 10px;
+      }
+
+      .disp {
+        display: none;
+        text-align: center;
+      }
+
+      .center {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .bluebar {
+      width: 100%;
+      height: 60px;
+      background-color: black;
+    }
+
+    .smallimg {
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: -10%;
+      width: 50%;
+    }
+
+    header {
+      background: url(img/front.jpg);
+      background-size: cover;
+      background-position: center;
+      min-height: 1000px;
+    }
+
+    @media screen and (max-width: 670px) {
+      header {
+        min-height: 500px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- navbar -->
+
+  <header>
+    <nav class="nav-wrapper blue">
+      <div class="container">
+        <img src="img/logot.png" alt="" class="center log">
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#outils">Outils</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+        <ul class="sidenav blue lighten-2" id="mobile-menu">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#outils">Outils</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+    <style>
+      .centeric {
+        margin-left: 47%;
+      }
+
+      .btnb {
+        position: relative;
+        left: 0;
+        right: 0;
+        margin-left: 40%;
+        margin-top: 50px;
+      }
+
+      .bas {
+        margin-top: 60px;
+      }
+
+      .projet {
+        margin-top: 60px;
+      }
+
+      .mid {
+        margin-top: 30%;
+        font-size: 130%;
+        font-weight: bold;
+      }
+
+      @media screen and (max-width: 670px) {
+        .centeric {
+          margin-left: 45%;
+        }
+
+        .btnb {
+          margin-top: 40px;
+          margin-left: 38%;
+        }
+      }
+    </style>
+    <div class="container">
+      <h1 class="center-align black-text">
+        <div class="mid">Créer votre site vitrine</div>
+        <div class="bas">
+          <a href="#contacts" class="waves-effect waves-light btn-large blue">Nous contacter</a>
+        </div>
+      </h1>
+    </div>
+
+  </header>
+
+  <body>
+    <!-- Services -->
+    <div class="bluebar" id="services"></div>
+    <section class="container section">
+
+      <h2 class="center-align blue-text">Services</h2>
+
+      <div class="projet">
+        <div class="row">
+          <div class="col s12 l5">
+            <img src="img/web.png" alt="" class="responsive-img">
+          </div>
+          <div class="col s12 l4 offset-l1">
+            <h4 class="blue-text center-align">
+              <h3 class="blue-text center-align">Création page web</h3>
+            </h4>
+            <div class="just">Votre page web représente l'idendité de votre commerce sur la toile
+              il est essentiel qu'il soit simple et intutif sur tous les appareils et pour le plus grand
+              nombre.
+            </div>
+          </div>
+        </div>
+
+        <div class="projet">
+          <div class="row">
+            <div class="col s12 l5 push-l6">
+              <img src="img/ref.png" alt="" class="responsive-img">
+            </div>
+            <div class="col s12 l4 pull-l4">
+              <h4 class="blue-text center-align">
+                <h3 class="blue-text center-align">Création page Google</h3>
+              </h4>
+              <div class="just">Google est le site le plus visité au monde avec 7 milliards de requètes par jours.
+                Ne manquez pas la chance de vous démarquer et d'obtenir une page Google unique à votre commerce quand
+                des clients vous recherchent !
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projet">
+          <div class="row">
+            <div class="col s12 l5">
+              <img src="img/ind.png" alt="" class="responsive-img">
+            </div>
+            <div class="col s12 l4 offset-l1">
+              <h4 class="blue-text center-align">
+                <h3 class="blue-text center-align">Indexation</h3>
+              </h4>
+              <div class="just">L'Indexation est un indicateur de fréquentation de votre établissement
+                qui permet aux moteurs de recherches de classer les pages web. Il est important d'avoir
+                un haut indice d'indexation pour être vu en premier.
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </section>
+    <!-- outils -->
+    <div class="bluebar" id="outils"></div>
+    <section class="container section"></section>
+    <div class="container">
+      <h2 class="center-align blue-text">Outils</h2>
+      <div class="row">
+        <div class="col s12 l6">
+          <div class="card">
+            <div class="card-image">
+              <div class="smallimg">
+                <img src="img/html.webp" alt="">
+              </div>
+            </div>
+            <div class="card-content">
+              <span class="card-tittle center-align ">
+                <h2>HTML</h2>
+              </span>
+              <p>HyperText Markup Language ou HTML permet de créer la structure du site web,
+                c'est ce language qui va afficher le texte d'une page grâce à des "balises" qui
+                permettent d'envelopper le contenu pour le styliser par le biais du language CSS.
+                Ces balisent sont les blocs utilisés pour construire un site web.
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 l6">
+          <div class="card">
+            <div class="card-image">
+              <div class="smallimg">
+                <img src="img/css.webp" alt="">
+              </div>
+            </div>
+            <div class="card-content">
+              <span class="card-tittle center-align">
+                <h2>CSS</h2>
+              </span>
+              <p>Les feuilles de style en cascade, généralement appelées CSS de l'anglais Cascading Style Sheets,
+                forment un langage informatique qui décrit la présentation des documents HTML et XML. Les standards
+                définissant CSS sont publiés par le World Wide Web Consortium (W3C). Introduit au milieu des années
+                1990, CSS devient couramment utilisé dans la conception de sites web et bien pris en charge par les
+                navigateurs web dans les années 2000.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 l6">
+          <div class="card">
+            <div class="card-image">
+              <div class="smallimg">
+                <img src="img/javascript.png" alt="">
+              </div>
+            </div>
+            <div class="card-content">
+              <span class="card-tittle center-align">
+                <h2>JavaScript</h2>
+              </span>
+              <p>JavaScript (qui est souvent abrégé en « JS ») est un langage de script léger, orienté objet,
+                principalement connu comme le langage de script des pages web. Mais il est aussi utilisé dans de
+                nombreux environnements extérieurs aux navigateurs web tels que Node.js, Apache CouchDB voire Adobe
+                Acrobat. Le code JavaScript est interprété ou compilé à la volée (JIT). C'est un langage à objets
+                utilisant le concept de prototype, disposant d'un typage faible et dynamique qui permet de programmer
+                suivant plusieurs paradigmes de programmation : fonctionnelle, impérative et orientée objet
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 l6">
+          <div class="card">
+            <div class="card-image">
+              <div class="smallimg">
+                <img src="img/materialize.png" alt="">
+              </div>
+            </div>
+            <div class="card-content">
+              <span class="card-tittle center-align">
+                <h2>Materialize</h2>
+              </span>
+              <p>Le framework "Materialize CSS" permet de reproduire en un rien de temps des pages web dans le style du
+                Material Design en réutilisant des modèles prêts à l'emploi. Littéralement, il s'agit d'un cadre de
+                travail dont la promesse est de respecter une charte graphique, en l'occurrence ici, celle du Material
+                Design.
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <!-- cliens -->
+
+
+
+    <!-- contact -->
+    <div class="bluebar" id="contacts"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col m10 offset-m1 s12">
+          <h2 class="center-align">Nous contacter</h2>
+          <div class="row">
+            <form class="col m8 offset-m2 s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="name" type="text">
+                  <label for="name">Nom ou intitulé de l'entreprise</label>
+                </div>
+
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="form-input">
+                  <label for="email">Email ou numéro de téléphone</label>
+                </div>
+
+                <div class="input-field col s12">
+                  <textarea id="message" class="materialize-textarea"></textarea>
+                  <label for="message">Décrivez votre projet en quelques mots </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m12">
+                  <p class="right-align">
+                    <a class="btn btn-large waves-effect waves-light" type="button"
+                      name="action" href="http://www.google.com">Envoyer
+                  </a></p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="ext/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+          $('select').material_select(); 
+          $('select').material_select('destroy');
+          $('.sidenav').sidenav();    
+        });
+    </script>
+  </body>
+
+</html>
