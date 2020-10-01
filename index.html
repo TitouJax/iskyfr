@@ -399,13 +399,19 @@
                   <input id="email" type="email" class="form-input" name="email">
                   <label for="email">E-mail</label>
                 </div>
-
+              <div class="input-field col s12">
+                <select>
+                  <option value="" disabled selected>Choisissez la formule</option>
+                  <option value="1">Site Monopage (250€ + 10€/mois)</option>
+                  <option value="2">Site Multipage (500€ + 15€/mois)</option>
+                </select>
+                <label name="type">Type de site</label>
+              </div>
                 <div class="input-field col s12">
                   <textarea id="message" class="materialize-textarea" name="message"></textarea>
                   <label for="message">Description du projet</label>
                 </div>
               </div>
-
               <div class="row">
                 <div class="col m12">
                   <p class="right-align">
@@ -414,6 +420,7 @@
                   </p>
                 </div>
               </div>
+
             </form>
 
           </div>
@@ -429,6 +436,7 @@
     <script>
       $(document).ready(function () {
         $('.sidenav').sidenav();
+        $('select').formSelect();
       });
     </script>
   </body>
